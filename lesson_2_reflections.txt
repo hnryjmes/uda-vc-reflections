@@ -20,8 +20,16 @@ organized? How would branches help?
 
 How do the diagrams help you visualize the branch structure?
 
+  it shows you which branches are reachable and unreachable
+
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+  we can keep lines of code that we want from both branches and organise it in
+  one branch. we keep track of which branches exist, what the parent of the
+  master is, etc.
+
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+
+  git can't tell which version of code to keep in all scenarios
